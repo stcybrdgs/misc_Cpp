@@ -1,4 +1,4 @@
 # misclCpp
 This repo contains miscellaneous C++ programs from college coursework. 
 
-- monkeyFood
+- C++ Program: "Monkey Food" (monkeyFood.cpp)
