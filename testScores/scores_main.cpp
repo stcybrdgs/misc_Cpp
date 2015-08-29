@@ -35,8 +35,8 @@ int main(){
     scoresAvg = getScoresAvg(studentScores, numScores); 
     printScoreInfo( studentScores, numScores, scoresAvg);
 
-    delete [] studentScores;   // free the dynamically allocated memory
-    studentScores = 0;     // set studentScores address to 0
+    delete [] studentScores; // free the dynamically allocated memory
+    studentScores = 0;       // set studentScores address to 0
 	
     cout << endl << endl;      
     return EXIT_SUCCESS;                
