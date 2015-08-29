@@ -2,10 +2,6 @@
 // mipsOps_implement.cpp
 
 #include "mipsOps_head.h"
-#include<iostream>
-#include<sstream>
-#include<string>
-using namespace std;
 
 /********************************************************************
  void multiply(int a, int b)
