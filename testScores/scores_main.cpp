@@ -20,24 +20,24 @@ int main(){
     float scoresAvg;   // var average of all student scores
     
     // prompt user for number of scores to be processed
-	cout << "How many student scores need to be processed? ";
-	cin >> numScores;         
+    cout << "How many student scores need to be processed? ";
+    cin >> numScores;         
     cout << endl;
     
     // dynamically allocate an array of Scores
-	Scores *studentScores;                          
+    Scores *studentScores;                          
     studentScores =           
     new Scores[numScores];  
 
     // call functions to read name-score pairs, sort, compute avg, and print data
-	readScores(studentScores, numScores);           
+    readScores(studentScores, numScores);           
     sortScores(studentScores, numScores);             
     scoresAvg = getScoresAvg(studentScores, numScores); 
     printScoreInfo( studentScores, numScores, scoresAvg);
 
     delete [] studentScores;   // free the dynamically allocated memory
-	studentScores = 0;         // set studentScores address to 0
+    studentScores = 0;     // set studentScores address to 0
 	
-	cout << endl << endl;      
-	return EXIT_SUCCESS;                
+    cout << endl << endl;      
+    return EXIT_SUCCESS;                
 }
