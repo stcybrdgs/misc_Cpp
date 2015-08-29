@@ -4,16 +4,20 @@ Objective:
 This program demonstrates how the MIPS computer architecture performs integer multiplication and division.
 
 Description: 
-This console program simulates the MIPS algorithms for multiplication and division. The user is prompted to enter two integers and to select either multiplication or division. The program output is divided into four columns: the first column is used to indicate which step of the selected algorithm is being performed; and, the other other three columns are used to display the state of the bit sequence in each of the three registers that are used by the operation.
+This console program simulates the MIPS algorithms for multiplication and division. The user is prompted to enter two 
+integers and to select an operation (either multiplication or division). The program output is then divided into four columns: 
+one column displays the current step in the algorithm, and the other three display the state of the bit sequence in each 
+register used by the operation.
 
 Requirements: 
-- implement the MIPS multiplication algorithm for integer multiplication
-- implement the MIPS division algorithm for integer division
+- implement the MIPS multiplication algorithm for integers
+- implement the MIPS division algorithm for integers
 - prompt the user for the mode of operation (mult or div)
 - prompt the user for two operands (entered as integers in base 10)
-- display the contents of each register at every step of computation
-- display register contents in binary
+- display the contents of each register in binary at every step of computation
 - format the program output for readability in the console
 
 Note:
-Because the contents of three 32-bit registers are displayed simultaneously, the output requires a fairly wide viewing pane. You may need to adjust your console dimensions (under 'Properties') to view the program output with its proper formatting intact. (A width of 115 or higher should be fine).
+Because the contents of three 32-bit registers are displayed simultaneously, the output requires a fairly wide viewing pane. 
+You may need to adjust your console dimensions (under 'Properties') to view the program output with its proper formatting 
+intact. (A width of 115 or higher should be fine).
