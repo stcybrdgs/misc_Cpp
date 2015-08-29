@@ -2,12 +2,12 @@
 //  cursorPlacer.cpp
 /*******************************************************************************
 Programmer:  Stacy Bridges
-Description: This program demonstrates how to create a console form
-             that places the cursor next to its label as the user 
-             works through the form.
+Description: This program demonstrates how to use window.h to create a console 
+             form that automatically places the cursor at the next field in the 
+             form after each user entry.
 *******************************************************************************/
 #include<iostream>
-#include<windows.h>  // this include allows for setting cursor positions
+#include<windows.h>  // allows for setting cursor positions
 #include<string>
 #include<cstdlib>    // allows for EXIT_SUCCESS
 using namespace std;
@@ -40,7 +40,7 @@ int main(){
 
 //  function definitions
 void placeCursor(HANDLE screen, int row, int col){
-    //  COORD is a defined C++ structure that holds a pair of X/Y coordinates
+    // COORD is a defined C++ structure that holds a pair of X/Y coordinates
     COORD position;
     position.Y = row;
     position.X = col;
