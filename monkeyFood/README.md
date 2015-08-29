@@ -3,7 +3,7 @@ PROGRAM REQUIREMENTS
 Description: 
 This console program reads user-input data on how many pounds of food is consumed weekly by the three monkeys at the Taylor zoo. The program also prints a summary tabular report displaying the user data, along with select statistics based on the data.
              
-Objective: 
+Objective:
 This program demonstrates how to use 2-D arrays to process multiple sets of identical data and  how to pass 2-D arrays to functions in C++.
 
 Requirements:
