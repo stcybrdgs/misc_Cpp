@@ -10,8 +10,6 @@ Description: This program simulates how the MIPS computer architecture
 *******************************************************************************/
 #include "mipsOps_head.h"
 #include<cstdlib>    // allow for EXIT_SUCCESS
-#include<iostream>
-using namespace std;
 
 int main(){
     // declare local variables to contain user input
@@ -21,7 +19,7 @@ int main(){
 
     // get user input and invoke simulated MIPS multiplication or division
     do{
-	printMenu( );
+	printMenu();
         cout << "Enter menu choice: ";
         cin >> choice;
         cout << endl; 
