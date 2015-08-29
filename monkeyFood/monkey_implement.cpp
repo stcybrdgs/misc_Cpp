@@ -16,12 +16,12 @@ using namespace std;
 void getFoodData(float data[][7], int size){
     string day;    // local variable to hold day of week
     
-// use nested loops to control user entry of food data;
-// the outer loop controls which monkey's data is being entered
+    // use nested loops to control user entry of food data;
+    // the outer loop controls which monkey's data is being entered
     for(int monkey = 0; monkey < size; monkey++){
-    // the inner loop controls which day's data is being entered
+        // the inner loop controls which day's data is being entered
         for(int dayCount = 0; dayCount < 7; dayCount++){
-        // the switch statement determines name of the day
+            // the switch statement determines name of the day
             switch(dayCount){ 
                 case 0:
                     day = "Mon";
@@ -101,17 +101,17 @@ float getAvgAmtEaten(float data[][7], int size){
 *             smallest value contained in monkeyData[][];
 *             the min value is returned to main.
 ******************************************************************************/
-float   getMinAmtEaten(float data[][7], int size)
-{   float   min = 0;                    // min amount of food eaten
+float   getMinAmtEaten(float data[][7], int size){   
+    float   min = 0;                    // min amount of food eaten
     float   compareMin = data[0][0];    // variable to hold comparison value as 
                                         // benchmarked to 1st value in the array
     
-// iterate through contents of data[][], comparing each value against the 
-// benchmarked comparison value; upon each comparison, reset the min variable 
-// as needed to contain the smallest value
+    // iterate through contents of data[][], comparing each value against the 
+    // benchmarked comparison value; upon each comparison, reset the min variable 
+    // as needed to contain the smallest value
     for(int row = 0; row < 3; row++){   
         for(int col = 0; col < 7; col++){
-        // if array val < benchmarked val, then reset min val
+            // if array val < benchmarked val, then reset min val
             if(data[row][col] < compareMin)
                 min = data[row][col];
         }   
@@ -127,17 +127,17 @@ float   getMinAmtEaten(float data[][7], int size)
 *             greatest value contained in monkeyData[][];
 *             the max value is returned to main.
 ******************************************************************************/
-float   getMaxAmtEaten(float data[][7], int size){
+float getMaxAmtEaten(float data[][7], int size){
     float   max;                        // max amount of food eaten
     float   compareMax = data[0][0];    // variable to hold comparison value as 
                                         // benchmarked to 1st value in the array
     
-// iterate through contents of data[][], comparing each value against the 
-// benchmarked comparison value; upon each comparison, reset the max variable 
-// as needed to contain the smallest value
+    // iterate through contents of data[][], comparing each value against the 
+    // benchmarked comparison value; upon each comparison, reset the max variable 
+    // as needed to contain the smallest value
     for(int row = 0; row < 3; row++){   
         for(int col = 0; col < 7; col++){
-        // if array val > benchmarked val, then reset max val
+            // if array val > benchmarked val, then reset max val
             if(data[row][col] > compareMax)
                 max = data[row][col];
         }   
@@ -155,9 +155,8 @@ float   getMaxAmtEaten(float data[][7], int size){
 *               - the min amount consumed by any monkey during the week
 *               - the max amount consumed by any monkey during the week
 ******************************************************************************/
-void    printFoodReport(float data[][7], int size, FoodStats stats)
-{
-// print report title and column headers
+void    printFoodReport(float data[][7], int size, FoodStats stats){
+    // print report title and column headers
     cout << "----------------------------------------------------------------" << endl;
     cout << "                   Weekly Food Report                           " << endl;
     cout << "           Pounds of food eaten per monkey per day:             " << endl;
@@ -173,15 +172,15 @@ void    printFoodReport(float data[][7], int size, FoodStats stats)
          << setw(8) << "Sun"
          << endl;
 
-// always show decimal with precision of two points  
+    // always show decimal with precision of two points  
     cout    << showpoint << fixed << setprecision(2);
 
-// print monkeyFood[][] data;
-// the outer for-loop controls which monkey's data is being printed
+    // print monkeyFood[][] data;
+    // the outer for-loop controls which monkey's data is being printed
     for(int monkey = 0; monkey < size; monkey++){
         cout << setw(8) << monkey + 1;              
 
-    // the inner loop controls which day's consumption is being printed
+        // the inner loop controls which day's consumption is being printed
         for(int day = 0; day < 7; day ++){
             cout << setw(8) << data[monkey][day];   
         }     
@@ -189,7 +188,7 @@ void    printFoodReport(float data[][7], int size, FoodStats stats)
     }      
     cout << endl;
     
-// print the average, max, and min values from stats
+    // print the average, max, and min values from stats
     cout    << left << setw(50)
             << "The average food eaten per day by all monkeys: "
             << right << setw(8) << stats.avgAmtEaten << " pounds" << endl;
