@@ -1,7 +1,7 @@
 THE MIPSOPS PROGRAM
 
 Objective: 
-  This program demonstrates how the MIPS computer architecture performs integer multiplication and division.
+This program demonstrates how the MIPS computer architecture performs integer multiplication and division.
 
 Description: 
 This console program simulates the MIPS algorithms for multiplication and division. The user is prompted for two integer operands and to select either multiplication or division. The output is then divided into four columns: one to display the current step in the algorithm, and three to display the state of the bit sequence in each register used by the operation.
