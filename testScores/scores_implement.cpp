@@ -66,8 +66,8 @@ void sortScores(Scores array[], int size){
     int minIndex;  // subscript of the smallest compared value
     int temp;      // temp value to support swap
     
-    for(int index = 0; index < size - 1; index ++)
-    {   minValue = array[index].score; // set current min value 
+    for(int index = 0; index < size - 1; index ++){   
+        minValue = array[index].score; // set current min value 
         minIndex = index;              // set location of current min value
         
         // compare the remaining array values to current minValue;
@@ -77,7 +77,7 @@ void sortScores(Scores array[], int size){
                 minValue = array[scan].score;   
                 minIndex = scan;               
             }  
-        // swap old minValue with new minValue
+            // swap old minValue with new minValue
             temp = array[index].score;                  
             array[index].score = array[minIndex].score; 
             array[minIndex].score = temp;           
