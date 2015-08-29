@@ -9,7 +9,9 @@ Description: This program simulates how the MIPS computer architecture
              step of the multiplication or division algorithm.
 *******************************************************************************/
 #include "mipsOps_head.h"
-#include<cstdlib>
+#include<cstdlib>    // allow for EXIT_SUCCESS
+#include<iostream>
+using namespace std;
 
 int main(){
     // declare local variables to contain user input
