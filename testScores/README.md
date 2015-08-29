@@ -1,4 +1,4 @@
-PROGRAM REQUIREMENTS
+THE TEST SCORES PROGRAM
 
 Objective:
 This program demonstrates the use of struct, array, pointer, and selection sort in C++.
