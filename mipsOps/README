@@ -21,3 +21,5 @@ Note:
 Because the contents of three 32-bit registers are displayed simultaneously, the output requires a fairly wide viewing pane. 
 You may need to adjust your console dimensions (under 'Properties') to view the program output with its proper formatting 
 intact. (A width of 115 or higher should be fine). 
+
+
