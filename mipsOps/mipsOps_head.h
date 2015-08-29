@@ -9,13 +9,13 @@
 #include<string>
 using namespace std;
 
-//	non-member function prototypes
-	void printMenu();
-	void multiply(int, int);
-	void divide(int, int);
-	void printRegs(string, int [], int []);
-	string getBinVal(int []);
-	string getBinValUpper(int []);
-	string getBinValLower(int []);
+// non-member function prototypes
+void printMenu();
+void multiply(int, int);
+void divide(int, int);
+void printRegs(string, int [], int []);
+string getBinVal(int []);
+string getBinValUpper(int []);
+string getBinValLower(int []);
 
 #endif
