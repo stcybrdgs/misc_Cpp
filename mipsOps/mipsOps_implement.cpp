@@ -101,7 +101,6 @@ void multiply(int a, int b){
     }// end for
 }// end multiply()
 
-
 /********************************************************************
  void divide(int a, int b)
 
@@ -243,7 +242,6 @@ void divide(int a, int b){
     }// end for   
 }// end divide()
 
-
 /********************************************************************
  void printMenu()
 
@@ -260,7 +258,6 @@ void printMenu(){
     cout << "----------------------------------\n";    
     cout << "(You may need to widen your display to accomodate the output)\n\n";    
 }
-
 
 /********************************************************************
  string getBinVal(int array[])
@@ -293,7 +290,6 @@ string getBinVal(int array[]){
     return binVal;   
 }
 
-
 /********************************************************************
  string getBinValUpper(int array[])
 
@@ -325,7 +321,6 @@ string getBinValUpper(int array[]){
     return binVal;     
 }
 
-
 /********************************************************************
  string getBinValLower(int array[])
 
@@ -356,7 +351,6 @@ string getBinValLower(int array[]){
     // return string for display to console    
     return binVal;      
 }
-
 
 /********************************************************************
  void printRegs(string mssg, int bigReg[], int littleReg[])
