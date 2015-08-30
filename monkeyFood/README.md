@@ -1,4 +1,4 @@
-THE MONKEY FOOD PROGRAM
+#THE MONKEY FOOD PROGRAM
 
 OBJECTIVE:
 This program demonstrates how to use 2-D arrays to process multiple sets of identical data and  how to pass 2-D arrays to functions in C++.
