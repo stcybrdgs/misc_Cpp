@@ -1,12 +1,12 @@
 THE TEST SCORES PROGRAM
 
-Objective:
+OBJECTIVE:
 This program demonstrates the use of struct, array, pointer, and selection sort in C++.
 
-Description: 
+DESCRIPTION: 
 This console program processes test scores for a class of students. It reads user-input student names and scores, and then it prints a report of the data, ordered from lowest score to highest, along with an average score.
 
-Requirements:
+REQUIREMENTS:
 For each student, read the following input from the keyboard:
 - student name (up to 30 chars)
 - score (an integer value)
