@@ -1,4 +1,4 @@
-THE MIPSOPS PROGRAM
+#THE MIPSOPS PROGRAM
 
 OBJECTIVE: 
 This program demonstrates how the MIPS computer architecture performs integer multiplication and division.
