@@ -14,5 +14,7 @@ REQUIREMENTS:
 - display the contents of each register in binary at every step of computation
 - format the program output for readability in the console
 
-NOTE:
+NOTES:
 The output is formatted for a fairly wide viewing pane, so you may want to adjust your console width to 115 or higher for best results.
+
+This program was eventually developed into a full-blown [web project](https://github.com/stcybrdgs/www.mipsops.com).
