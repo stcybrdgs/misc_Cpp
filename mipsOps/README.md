@@ -1,7 +1,7 @@
 #THE MIPSOPS PROGRAM
 
 OBJECTIVE: 
-This C++ console program demonstrates how the MIPS computer architecture performs integer multiplication and division.
+I wrote this C++ console program for a course in **Computer Architecture** at Texas State University in San Marcos, Texas. The program demonstrates how the **MIPS architecture** performs integer multiplication and division.
 
 DESCRIPTION: 
 The user is prompted for two integer operands and to select either multiplication or division. The console output is then divided into four columns: one to display the current step in the algorithm, and three to display the state of the bit sequence in each register being used by the operation.
